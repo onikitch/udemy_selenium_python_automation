@@ -17,3 +17,8 @@ def test_list():
     del values[0] # 1, 'update', 'super', 3, 4, 5, 'end'
     print(values)
 
+    print(values[2]) # super
+
+    # Tuple - Same as List data type but immutable
+    val = (0, 1, 2, 3, 4, 5)
+    print(val)
